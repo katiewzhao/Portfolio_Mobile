@@ -1,0 +1,66 @@
+body{
+    font-family: "proxima nova";
+}
+
+h1{
+    font-family: "Futura";
+    font-weight: bold;
+    font-size: 36px;
+    color:#3B424B;
+}
+
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p{
+    margin: 16px;
+}
+
+nav li{
+    width:25%;
+    float: left;
+    margin-bottom: 16px;
+}
+
+li a {
+    display: block;
+    color: #3B424B;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #3B424B;
+    color: white;
+}
+
+.active {
+    background: #B4BAC6;
+    color: white;
+    text-transform: uppercase;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+img{
+    width:200px;
+    padding: 8px;;
+    margin:8px;
+    border:#B4BAC6 3px solid;
+    border-radius: 10px;
+}
+
+img:hover:nth-child(odd){
+    border:black 3px solid;
+    border-radius: 10px;
+}
+
+ul.content{
+    list-style: inside;
+    margin:16px;
+}
